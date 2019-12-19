@@ -6,7 +6,7 @@ date:   2019-12-23 21:03:36 +0530
 ---
 
 <div>
-<img src="/img/about/Fudan.gif" alt="." width="180" height="180" align="right">
+<img src="/img/about/fudan.png" alt="." width="180" height="180" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 
 Email: xlqian15 AT fudan.edu.cn 

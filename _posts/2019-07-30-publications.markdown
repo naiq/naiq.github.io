@@ -29,8 +29,7 @@ IEEE transactions on pattern analysis and machine intelligence (TPAMI), 2019
 <br>
 <a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.html" 
 target="_blank"> Pose-Normalized Image Generation for Person Re-identification. </a>
-<a href="https://github.com/naiq/PN_GAN" 
-target="_blank">[Code]</a>
+<a href="https://github.com/naiq/PN_GAN" target="_blank">[Code]</a>
 <br>
 Proceedings of the European Conference on Computer Vision (ECCV), 2018
 </span>
