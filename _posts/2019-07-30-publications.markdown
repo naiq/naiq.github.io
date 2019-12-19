@@ -4,7 +4,7 @@ title:  "Publications"
 description: Publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
 date:   2019-12-23 21:03:36 +0530
 ---
-Most Publications can be found <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
+Most Publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
 <div>
 <img src="/img/publication/PAMI19_Framework.png" alt="." style="vertical-align:middle;
