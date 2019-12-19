@@ -22,7 +22,7 @@ IEEE transactions on pattern analysis and machine intelligence (TPAMI), 2019
 ------
 
 <div>
-<img src="/img/publication/eccv18_generated_images.png" alt="." width="350" height="160" align="left">
+<img src="/img/publication/eccv18_framework.png" alt="." width="350" height="160" align="left">
 <span>
 
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue. 
