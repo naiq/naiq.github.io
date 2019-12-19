@@ -12,7 +12,7 @@ Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" tar
 <img src="/img/about/portfolio.png" alt="." width="200" height="200" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 
-My research interests span person re-identification, meta-learning, and image generation.
+My research interests span person re-identification, few-shot learning, face recognition and object counting.
 <br>
 I received my Bachelor's degree from Xidian University in 2015, and majored in Mathematics and Applied Mathematics during my undergraduate study.
 <br>
