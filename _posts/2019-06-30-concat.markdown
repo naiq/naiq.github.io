@@ -5,10 +5,16 @@ description: Welcome to drop me an email if you are interested in my works!
 date:   2019-12-23 21:03:36 +0530
 ---
 
+<div>
+<img src="/img/about/Fudan.gif" alt="." width="200" height="200" align="right">
+<span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
+
 Email: xlqian15 AT fudan.edu.cn or xuelinq92 AT gmail.com
-
-School of Computer Science
-
-Fudan University
-
+<br>
+School of Computer Science, Fudan University
+<br>
 Addr: Room 408, Computer Science Building, 825 Zhangheng Road, Pudong, Shanghai 201203, China.
+<br>
+</span>
+</div>
+
