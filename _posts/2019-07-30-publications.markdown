@@ -22,7 +22,7 @@ IEEE transactions on pattern analysis and machine intelligence (TPAMI), 2019
 ------
 
 <div>
-<img src="/img/publication/eccv18_generated_images.png" alt="." width="350" height="180" align="left">
+<img src="/img/publication/eccv18_generated_images.png" alt="." width="350" height="160" align="left">
 <span>
 
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue. 
@@ -31,7 +31,6 @@ IEEE transactions on pattern analysis and machine intelligence (TPAMI), 2019
 target="_blank"> Pose-Normalized Image Generation for Person Re-identification. </a>
 <a href="https://github.com/naiq/PN_GAN" 
 target="_blank">\[Code\]</a>
-
 <br>
 Proceedings of the European Conference on Computer Vision (ECCV), 2018
 </span>
