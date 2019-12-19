@@ -16,17 +16,17 @@ sass:
 
 permalink: /posts/:title/
 texture:
-  title: Wenxuan Wang
+  title: Xuelin Qian
   tagline: Ph.D. Student at Fudan University
   date_format: "%b %-d, %Y"
-  style: black
+  style: blue
   showNav: false
   showPicker: true
 
   # generate social links in footer
   social_links:
     # twitter: thelehhman
-    github:  wxwangIris
+    github:  naiq
     # linkedIn: in/thelehhman
     # rss: rss
  
