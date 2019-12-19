@@ -29,7 +29,4 @@ Open-source projects can be found at my <a href="https://github.com/naiq" target
 <b>Academic Activities:</b>
 Reviewer for CVPR, AAAI, ICCV.
 
-<span id="busuanzi_container_site_pv">
-    Page View<span id="busuanzi_value_site_pv"></span>
-</span>
 
