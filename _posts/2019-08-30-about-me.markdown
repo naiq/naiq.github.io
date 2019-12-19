@@ -4,24 +4,24 @@ title:  "About Me"
 date:   2019-12-23 21:03:36 +0530
 ---
 
-Hi! I am currently a third-year Ph.D. student at Fudan University, under the supervision of Prof. Xiangyang Xue and Prof. Yanwei Fu.
+Hi! I am currently a fifth-year Ph.D. student at Fudan University, under the supervision of Prof. Xiangyang Xue and Prof. Yanwei Fu.
 
 <div>
 <img src="/img/about/portfolio.png" alt="." width="200" height="200" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 
-My research interests span face recognition, person re-identification and image generation.
+My research interests span person re-identification, meta-learning, and image generation.
 <br>
-I received my Bachelor's degree from Northwestern Polytechnical University in 2017, under the supervision of Prof. Ying Li.
+I received my Bachelor's degree from Xidian University in 2015, and majored in Mathematics and Applied Mathematics during my undergraduate study.
 <br>
-More details can be found in my <a href="/img/about/CV_wwx.pdf" target="_blank">CV</a>.
+More details can be found in my <a href="/img/about/qxl_cv.pdf" target="_blank">CV</a>.
 <br>
 </span>
 </div>
 
-open-source projects can be found at my <a href="https://github.com/wxwangIris" target="_blank">GitHub</a>
-, and publications can be found at <a href="https://scholar.google.com/citations?user=BN9Q_dcAAAAJ&hl=en" target="_blank">Google Scholar</a>. 
+open-source projects can be found at my <a href="https://github.com/naiq" target="_blank">GitHub</a>
+, and publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 
 <b>Academic Activities:</b>
-Reviewer for CVPR 2020, AAAI 2020, ICCV 2019, CVPR 2019, AAAI 2019, CVPR 2018, ACCV 2018, NIPS 2016.
+Reviewer for CVPR 2020, AAAI 2020, ICCV 2019.
 
