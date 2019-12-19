@@ -8,7 +8,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 
 <div>
 <img src="/img/publication/PAMI19_Framework.png" alt="." style="vertical-align:middle;
-" width="350" height="145" align="left">
+" width="350" height="140" align="left">
 <span>
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue. 
 <br>
