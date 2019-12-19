@@ -21,7 +21,7 @@ I received my Bachelor's degree from Xidian University in 2015, and majored in M
 
 More details can be found in my <a href="/img/about/qxl_cv.pdf" target="_blank">CV</a>.
 
-open-source projects can be found at my <a href="https://github.com/naiq" target="_blank">GitHub</a>
+Open-source projects can be found at my <a href="https://github.com/naiq" target="_blank">GitHub</a>
 , and publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 
 <b>Academic Activities:</b>
