@@ -37,7 +37,7 @@ Proceedings of the European Conference on Computer Vision (ECCV), 2018
 ------
 
 <div>
-<img src="/img/publication/arxiv18_scsp.png" alt="." width="350" height="200" align="left">
+<img src="/img/publication/arxiv18_scsp.png" alt="." width="350" height="150" align="left">
 <span>
 
 Huiyuan Zhuo, <b>Xuelin Qian</b>, Yanwei Fu, Heng Yang, Xiangyang Xue. 
