@@ -38,8 +38,6 @@ texture:
 # Build settings
 # theme: texture
 
-<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo"></script>
-
 plugins:
   - jekyll-seo-tag
 #  - jekyll-feed
