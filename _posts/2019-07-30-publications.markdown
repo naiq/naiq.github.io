@@ -2,7 +2,7 @@
 layout: post
 title:  "Publications"
 description: Publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
-date:   2019-10-08 21:03:36 +0530
+date:   2019-7-08 21:03:36 +0530
 ---
 Most Publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
