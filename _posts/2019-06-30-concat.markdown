@@ -4,11 +4,15 @@ title:  "Contact"
 description: Welcome to drop me an email if you are interested in my works!
 date:   2019-01-23 21:03:36 +0530
 ---
-<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo"></script>
 
+<div>
+<a href="https://clustrmaps.com/site/1b1k1" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&cl=ffffff" width="180" height="180" align="right"></a>
+<span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 Email: xlqian15 AT fudan.edu.cn 
 <br>
 or Email: xuelinq92 AT gmail.com
+</span>
+</div>
 
 <div>
 <img src="/img/about/fudan.png" alt="." width="180" height="180" align="right">
