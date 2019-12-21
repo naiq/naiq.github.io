@@ -4,7 +4,7 @@ title:  "Contact"
 description: Welcome to drop me an email if you are interested in my works!
 date:   2019-01-23 21:03:36 +0530
 ---
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&cl=ffffff&w=a"></script>
+<script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo"></script>
 
 Email: xlqian15 AT fudan.edu.cn 
 <br>

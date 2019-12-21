@@ -30,7 +30,6 @@ Open-source projects can be found at my <a href="https://github.com/naiq" target
 Reviewer for CVPR, ECCV, ICCV, AAAI.
 
 <a href="https://clustrmaps.com/site/1b1k1" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&cl=ffffff"></a>
-<script type="text/javascript" id="clustrmaps" src="//cdn.clustrmaps.com/map_v2.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&cl=ffffff&w=a"></script>
 
 
 
