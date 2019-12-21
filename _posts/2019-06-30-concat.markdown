@@ -6,7 +6,7 @@ date:   2019-01-23 21:03:36 +0530
 ---
 
 <div>
-<a href="https://clustrmaps.com/site/1b1k1" title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&cl=ffffff" width="180" height="180" align="right"></a>
+<a href='https://clustrmaps.com/site/1b1k1'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=968d8d&w=a&t=tt&d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&co=042c47' width="180" height="180" align="right"/></a>
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 Email: xlqian15 AT fudan.edu.cn 
 <br>
@@ -15,7 +15,7 @@ or Email: xuelinq92 AT gmail.com
 </div>
 
 <div>
-<img src="/img/about/fudan.png" alt="." width="200" height="100" align="right">
+<img src="/img/about/fudan.png" alt="." width="180" height="180" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 School of Computer Science, Fudan University
 <br>
