@@ -27,6 +27,6 @@ Open-source projects can be found at my <a href="https://github.com/naiq" target
 , and publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>. 
 
 <b>Academic Activities:</b>
-Reviewer for CVPR, AAAI, ICCV.
+Reviewer for CVPR, ECCV, ICCV, AAAI.
 
 
