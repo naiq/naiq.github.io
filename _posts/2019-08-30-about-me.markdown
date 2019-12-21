@@ -9,7 +9,7 @@ Prof. <a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</
 Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a>.
 
 <div>
-<img src="/img/about/portfolio.png" alt="." width="200" height="200" align="right">
+<img src="/img/about/portfolio.jpg" alt="." width="250" height="250" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 
 My research interests span computer vision, machine learning and deep learning. 

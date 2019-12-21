@@ -7,7 +7,7 @@ date:   2019-10-08 21:03:36 +0530
 Most Publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>.
 
 <div>
-<img src="/img/publication/PAMI19_Framework.png" alt="." style="vertical-align:middle;
+<img src="/img/publication/PAMI19_Framework.jpg" alt="." style="vertical-align:middle;
 " width="350" height="140" align="left">
 <span>
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue. 
@@ -22,7 +22,7 @@ IEEE transactions on pattern analysis and machine intelligence (TPAMI), 2019
 ------
 
 <div>
-<img src="/img/publication/eccv18_framework.png" alt="." width="350" height="160" align="left">
+<img src="/img/publication/eccv18_framework.jpg" alt="." width="350" height="160" align="left">
 <span>
 
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Wenxuan Wang, Jie Qiu, Yang Wu, Yu-Gang Jiang, Xiangyang Xue. 
@@ -38,7 +38,7 @@ Proceedings of the European Conference on Computer Vision (ECCV), 2018
 ------
 
 <div>
-<img src="/img/publication/arxiv18_scsp.png" alt="." width="350" height="110" align="left">
+<img src="/img/publication/arxiv18_scsp.jpg" alt="." width="350" height="110" align="left">
 <span>
 
 Huiyuan Zhuo, <b>Xuelin Qian</b>, Yanwei Fu, Heng Yang, Xiangyang Xue. 
@@ -53,7 +53,7 @@ arXiv preprint arXiv:1806.05320, 2018
 ------
 
 <div>
-<img src="/img/publication/iccv17_framework.png" alt="." style="vertical-align:middle;" width="350" height="160" align="left">
+<img src="/img/publication/iccv17_framework.jpg" alt="." style="vertical-align:middle;" width="350" height="160" align="left">
 <span>
 <b>Xuelin Qian</b>, Yanwei Fu, Yu-Gang Jiang, Tao Xiang, Xiangyang Xue. 
 <br>

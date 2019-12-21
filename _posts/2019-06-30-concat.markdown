@@ -9,7 +9,7 @@ Email: xlqian15 AT fudan.edu.cn
 or Email: xuelinq92 AT gmail.com
 
 <div>
-<img src="/img/about/fudan.png" alt="." width="180" height="180" align="right">
+<img src="/img/about/fudan.jpg" alt="." width="180" height="180" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
 School of Computer Science, Fudan University
 <br>
