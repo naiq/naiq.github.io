@@ -6,13 +6,14 @@ date:   2019-01-23 21:03:36 +0530
 ---
 <a href='https://clustrmaps.com/site/1b1k1'  title='Visit tracker'><img src='//clustrmaps.com/map_v2.png?cl=968d8d&w=a&t=tt&d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo&co=042c47' width="200" height="100" align="center"/></a>
 
-Email: xlqian15 AT fudan.edu.cn 
-<br>
-or Email: xuelinq92 AT gmail.com
 
 <div>
 <img src="/img/about/fudan.png" alt="." width="180" height="180" align="right">
 <span style="display:inline-block;width:60%;word-wrap:break-word;white-space:normal;">
+Email: xlqian15 AT fudan.edu.cn 
+<br>
+or Email: xuelinq92 AT gmail.com
+<br>
 School of Computer Science, Fudan University
 <br>
 Addr: Room 408, Computer Science Building, 825 Zhangheng Road, Pudong, Shanghai 201203, China.
