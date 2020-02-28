@@ -5,6 +5,9 @@ description: Welcome to drop me an email if you are interested in my works!
 date:   2019-09-12 21:03:36 +0530
 ---
 
+One paper is accepted by CVPR 2020. 
+<a href="" target="_blank">FMMu-Net.</a>
+
 One paper is accepted by TPAMI 2019. 
 <a href="https://ieeexplore.ieee.org/abstract/document/8762210/" target="_blank">MuDeep_V2.</a>
 
