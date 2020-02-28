@@ -8,7 +8,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 
 <div>
 <img src="/img/publication/cvpr19_framework.png" alt="." style="vertical-align:middle;
-" width="350" height="140" align="left">
+" width="340" height="140" align="left">
 <span>
 Wenxuan Wang, <b>Xuelin Qian</b>, Yanwei Fu, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
 <br>
