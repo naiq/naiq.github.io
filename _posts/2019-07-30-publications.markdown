@@ -10,7 +10,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 <img src="/img/publication/cvpr19_framework.png" alt="." style="vertical-align:middle;
 " width="340" height="140" align="left">
 <span>
-Wenxuan Wang, <b>Xuelin Qian</b>, Yanwei Fu, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
+Wenxuan Wang, Yanwei Fu, <b>Xuelin Qian</b>, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
 <br>
 <a href=""> FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification. </a>
 <br>
