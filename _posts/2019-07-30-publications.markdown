@@ -22,13 +22,16 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
 
 <div>
 <img src="/img/publication/arxiv2020_VC-Clothes.png" alt="." style="vertical-align:middle;
-" width="340" height="100" align="left">
+" width="340" height="150" align="left">
 <span>
 Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
 <br>
 <a href="https://arxiv.org/abs/2003.04070"> When Person Re-identification Meets Changing Clothes. </a>
 <br>
 arXiv preprint arXiv:2003.04070, 2020
+  
+  
+  
 </span>
 </div>
 
