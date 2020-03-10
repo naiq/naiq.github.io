@@ -8,7 +8,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 
 <div>
 <img src="/img/publication/cvpr19_framework.png" alt="." style="vertical-align:middle;
-" width="340" height="140" align="left">
+" width="330" height="140" align="left">
 <span>
 Wenxuan Wang, Yanwei Fu, <b>Xuelin Qian</b>, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
 <br>
@@ -18,12 +18,26 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
 </span>
 </div>
 
+------
+
+<div>
+<img src="/img/publication/arxiv2020_VC-Clothes.png" alt="." style="vertical-align:middle;
+" width="330" height="140" align="left">
+<span>
+Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
+<br>
+<a href="https://arxiv.org/abs/2003.04070"> When Person Re-identification Meets Changing Clothes. </a>
+<br>
+arXiv preprint arXiv:2003.04070, 2020
+</span>
+</div>
+
 
 ------
 
 <div>
 <img src="/img/publication/PAMI19_Framework.png" alt="." style="vertical-align:middle;
-" width="350" height="140" align="left">
+" width="330" height="140" align="left">
 <span>
 <b>Xuelin Qian</b>, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue. 
 <br>
