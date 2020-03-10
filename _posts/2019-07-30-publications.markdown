@@ -8,7 +8,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 
 <div>
 <img src="/img/publication/cvpr19_framework.png" alt="." style="vertical-align:middle;
-" width="330" height="140" align="left">
+" width="310" height="140" align="left">
 <span>
 Wenxuan Wang, Yanwei Fu, <b>Xuelin Qian</b>, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
 <br>
@@ -29,7 +29,6 @@ Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
 <a href="https://arxiv.org/abs/2003.04070"> When Person Re-identification Meets Changing Clothes. </a>
 <br>
 arXiv preprint arXiv:2003.04070, 2020
-<br>
 <br>
 <br>
 </span>
