@@ -8,7 +8,7 @@ Most Publications can be found at <a href="https://scholar.google.com/citations?
 
 <div>
 <img src="/img/publication/cvpr19_framework.png" alt="." style="vertical-align:middle;
-" width="310" height="140" align="left">
+" width="330" height="140" align="left">
 <span>
 Wenxuan Wang, Yanwei Fu, <b>Xuelin Qian</b>, Yu-Gang Jiang, Tian Qi, Xiangyang Xue. 
 <br>
@@ -22,7 +22,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
 
 <div>
 <img src="/img/publication/arxiv2020_VC-Clothes.png" alt="." style="vertical-align:middle;
-" width="340" height="150" align="left">
+" width="340" height="140" align="left">
 <span>
 Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
 <br>
