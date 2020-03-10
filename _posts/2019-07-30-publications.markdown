@@ -22,7 +22,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2020
 
 <div>
 <img src="/img/publication/arxiv2020_VC-Clothes.png" alt="." style="vertical-align:middle;
-" width="330" height="140" align="left">
+" width="340" height="110" align="left">
 <span>
 Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
 <br>
