@@ -29,9 +29,8 @@ Fangbin Wan, Yang Wu, <b>Xuelin Qian</b>, Yanwei Fu.
 <a href="https://arxiv.org/abs/2003.04070"> When Person Re-identification Meets Changing Clothes. </a>
 <br>
 arXiv preprint arXiv:2003.04070, 2020
-  
-  
-  
+<br>
+<br>
 </span>
 </div>
 
