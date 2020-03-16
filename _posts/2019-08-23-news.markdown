@@ -5,6 +5,9 @@ description: Welcome to drop me an email if you are interested in my works!
 date:   2019-02-28 21:03:36 +0530
 ---
 
+We have released a new cloth-changed ReID dataset.
+<a href="https://wanfb.github.io/dataset.html" target="_blank">VC-Clothes Dataset.</a>
+
 One paper is accepted by CVPR 2020. 
 <a href="" target="_blank">FMMu-Net.</a>
 
