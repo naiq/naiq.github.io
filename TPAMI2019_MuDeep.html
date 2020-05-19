@@ -2,14 +2,14 @@
 
 <head>
     <link rel="StyleSheet" href="style.css" type="text/css" media="all">
-    <title>FMMu-Net</title>
+    <title>MuDeep</title>
     <!-- Place this tag in your head or just before your close body tag. -->
     <script async defer src="https://buttons.github.io/buttons.js"></script>
 </head>
 <body>
     <br>
     <div class="center-div" align="center">
-        <span style="font-size:28px">FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification</span>
+        <span style="font-size:28px">Leader-Based Multi-Scale Attention Deep Architecture for Person Re-Identification</span>
     </div>
 
     <br>
@@ -18,7 +18,7 @@
             <tr>
                 <td align="center" width="150px">
                     <div class="center-div">
-                        <span style="font-size:18px"><a href="https://wxwangiris.github.io/" target="_blank">Wenxuan Wang</a></span>
+                        <span style="font-size:18px"><a href="https://naiq.github.io/" target="_blank">Xuelin Qian</a></span>
                     </div>
                 </td>
 
@@ -30,7 +30,7 @@
 
                 <td align="center" width="150px">
                     <div class="center-div">
-                        <span style="font-size:18px"><a href="https://naiq.github.io/" target="_blank">Xuelin Qian</a></span>
+                        <span style="font-size:18px"><a href="http://personal.ee.surrey.ac.uk/Personal/T.Xiang/index.html" target="_blank">Xiang Tao</a></span>
                     </div>
                 </td>
 
@@ -40,12 +40,6 @@
                     </div>
                 </td>
 
-				<td align="center" width="150px">
-                    <div class="center-div">
-                        <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=61b6eYkAAAAJ&hl=en">Qi Tian</a></span>
-                    </div>
-                </td>
-				
 				<td align="center" width="150px">
                     <div class="center-div">
                         <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a></span>
@@ -61,7 +55,7 @@
             <tr>
                 <td align="center" width="100px">
                     <div class="center-div">
-                        <span style="font-size:18px">Fudan University &nbsp; &nbsp; Noah's Ark Lab, Huawei Technologies</span>
+                        <span style="font-size:18px">Fudan University, China &nbsp; &nbsp; University of Surrey, United Kingdom</span>
                     </div>
                 </td>
             </tr>
@@ -77,19 +71,15 @@
     <table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> It is challenging in learning a makeup-invariant face verification model, due to 
-			(1) insufficient makeup/non-makeup face training pairs, (2) the lack of diverse makeup faces, and (3) the 
-			significant appearance changes caused by cosmetics. To address these challenges, we propose a unified
-			Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant face verification, which can simultaneously 
-			synthesize many diverse makeup faces through face morphology network (FM-Net) and effectively learn
-			cosmetics-robust face representations using attention-based multi-branch learning network (AttM-Net). For challenges
-			(1) and (2), FM-Net (two stacked auto-encoders) can synthesize realistic makeup face images by transferring specific
-			regions of cosmetics via cycle consistent loss. For challenge (3), AttM-Net, consisting of one global and three local 
-			(task-driven on two eyes and mouth) branches, can effectively capture the complementary holistic and detailed
-			information. Unlike DeepID2 which uses simple concatenation fusion, we introduce a heuristic method AttM-FM,
-			attached to AttM-Net, to adaptively weight the features of different branches guided by the holistic information. We
-			conduct extensive experiments on makeup face verification benchmarks (M-501, M-203, and FAM) and general
-			face recognition datasets (LFW and IJB-A). Our framework FMMu-Net achieves state-of-the-art performances.
+            <span style="font-size:18px"> Person re-identification (re-id) aims to match people across non-overlapping camera views in a public space. 
+			This is a challenging problem because the people captured in surveillance videos often wear similar clothing. Consequently, the differences 
+			in their appearance are typically subtle and only detectable at particular locations and scales. In this paper, we propose a deep re-id 
+			network (MuDeep) that is composed of two novel types of layers – a multi-scale deep learning layer, and a leader-based attention learning 
+			layer. Specifically, the former learns deep discriminative feature representations at different scales, while the latter utilizes the 
+			information from multiple scales to lead and determine the optimal weightings for each scale. The importance of different spatial locations 
+			for extracting discriminative features is learned explicitly via our leader-based attention learning layer. Extensive experiments 
+			are carried out to demonstrate that the proposed MuDeep outperforms the state-of-the-art on a number of benchmarks and has a better 
+			generalization ability under a domain generalization setting.
             </div>
         </td>
        
@@ -98,16 +88,16 @@
 
     <hr>
     <div class="center-div" align="center">
-        <h2>FMMu-Net</h2>
+        <h2>MuDeep</h2>
     </div>
 
     <table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px">Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant 
-			face verification, can simultaneously synthesize many diverse makeup faces through face morphology 
-			network (FM-Net) and effectively learn cosmetics-robust face representations using attention-based
-			multi-branch learning network (AttM-Net). 
+            <span style="font-size:18px"> A novel multi-scale representation learning architecture is proposed for learning discriminative person 
+			appearance features at multiple spatial scales and locations. Critically, the multiple scales refer to different resolution levels of 
+			filters, rather than multiscale inputs. And a leader-based attention learning layer can utilize the information computed at all scales 
+			to lead, and dynamically determines the important spatial locations in the feature extraction at each scale.
             </div>
         </td>
     </table>
@@ -118,14 +108,14 @@
             <tr>
                 <td>
                     <div class="center-div" align="center">
-                        <a href="#"><img src="images/cvpr20_framework.png" width="700px"></a><br>
+                        <a href="#"><img src="images/PAMI19_Framework.png" width="700px"></a><br>
                     </div>
                 </td>
             </tr>
             <tr>
                 <td>
                     <div class="center-div" align="center">
-                        <span style="font-size:16px"><i>FMMu-Net Framework</i>
+                        <span style="font-size:16px"><i>MuDeep Framework</i>
                         </span></div>
                 </td>
             </tr>
@@ -136,10 +126,10 @@
     <table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> FM-Net is stacked by two weight-sharing auto-encoders, to synthesize high-quality 
-			and abundant makeup faces by transferring the key cosmetics local patches (two eyes and mouth) between two similar faces.
-			AttM-Net learns cosmetics-robust identity features on local patches, and fuses them under the guidance of attention mechanism,
-			which can adaptively weight different parts (global and local) for each particular face.
+            <span style="font-size:18px"> The multi-scale stream layer first analyzes feature maps with multiple scales. Then the leader-based
+			attention learning layer is followed to automatically discover and emphasize important spatial locations. Finally, the global and 
+			local branch layer is utilized to extract discriminate features from global and local parts. Note that the parameters of each 
+			scale are not shared. ‘LAL’ means the Leader-based Attention Learning layer.
             </div>
         </td>
     </table>
