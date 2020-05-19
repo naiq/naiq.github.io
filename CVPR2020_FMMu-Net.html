@@ -1,0 +1,295 @@
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>FMMu-Net</title>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div" align="center">
+        <span style="font-size:28px">FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification</span>
+    </div>
+
+    <br>
+    <table align="center" width="1000px">
+        <tbody>
+            <tr>
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://wxwangiris.github.io/" target="_blank">Wenxuan Wang</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://naiq.github.io/" target="_blank">Xuelin Qian</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="http://www.yugangjiang.info/" target="_blank">Yu-Gang Jiang</a></span>
+                    </div>
+                </td>
+
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=61b6eYkAAAAJ&hl=en">Qi Tian</a></span>
+                    </div>
+                </td>
+				
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a></span>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table align="center" width="700px">
+        <tbody>
+            <tr>
+                <td align="center" width="100px">
+                    <div class="center-div">
+                        <span style="font-size:18px">Fudan University &nbsp; &nbsp; Noah's Ark Lab, Huawei Technologies</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>Abstract</h2>
+    </div>
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> It is challenging in learning a makeup-invariant face verification model, due to 
+			(1) insufficient makeup/non-makeup face training pairs, (2) the lack of diverse makeup faces, and (3) the 
+			significant appearance changes caused by cosmetics. To address these challenges, we propose a unified
+			Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant face verification, which can simultaneously 
+			synthesize many diverse makeup faces through face morphology network (FM-Net) and effectively learn
+			cosmetics-robust face representations using attention-based multi-branch learning network (AttM-Net). For challenges
+			(1) and (2), FM-Net (two stacked auto-encoders) can synthesize realistic makeup face images by transferring specific
+			regions of cosmetics via cycle consistent loss. For challenge (3), AttM-Net, consisting of one global and three local 
+			(task-driven on two eyes and mouth) branches, can effectively capture the complementary holistic and detailed
+			information. Unlike DeepID2 which uses simple concatenation fusion, we introduce a heuristic method AttM-FM,
+			attached to AttM-Net, to adaptively weight the features of different branches guided by the holistic information. We
+			conduct extensive experiments on makeup face verification benchmarks (M-501, M-203, and FAM) and general
+			face recognition datasets (LFW and IJB-A). Our framework FMMu-Net achieves state-of-the-art performances.
+            </div>
+        </td>
+       
+    </table>
+    <br><br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>FMMu-Net</h2>
+    </div>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px">Face Morphological Multi-branch Network (FMMu-Net) for makeup-invariant 
+			face verification, can simultaneously synthesize many diverse makeup faces through face morphology 
+			network (FM-Net) and effectively learn cosmetics-robust face representations using attention-based
+			multi-branch learning network (AttM-Net). 
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr20_framework.png" width="700px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>FMMu-Net Framework</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> FM-Net is stacked by two weight-sharing auto-encoders, to synthesize high-quality 
+			and abundant makeup faces by transferring the key cosmetics local patches (two eyes and mouth) between two similar faces.
+			AttM-Net learns cosmetics-robust identity features on local patches, and fuses them under the guidance of attention mechanism,
+			which can adaptively weight different parts (global and local) for each particular face.
+            </div>
+        </td>
+    </table>
+    <br><br>
+
+	
+	<hr> 
+	<div class="center-div" align="center">
+        <h2>Extended Makeup Face Dataset (EMFD)</h2>
+    </div>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> To facilitate this study, we assembled a new makeup face verfication database of 1102 face images 
+			that is 551 pairs of individuals. Each pair has one makeup and one non-makeup face images of the same individual. 
+			All face images are collected from the Internet with text information about makeup or non-makeup. So the 
+			labels of makeup and non-makeup, and the facial identities are collected together with the face images from 
+			the Internet. This dataset have the facial images of large areas of acne, glasses occlusion, head posture changes and
+			so on. Some face examples from our database are shown in below.
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr2020_makeup/cvpr2020_expand_dataset.png" width="600px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>Extended Makeup Face Dataset</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	
+	<br>
+	<table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> The file name in the folder is xxx_m or xxx_n, where xxx indicates the xxxth person, 
+			"m" indicates the image with makeup, and "n" indicates the image without makeup. 
+			This dataset is for non-commercial reseach purposes (such as academic research) only.
+			<a href="https://drive.google.com/open?id=1wpqZCYh7gGKz897C-hQbgR7CHbJdBGxg">[Dataset Google Drive]</a>
+            <a href="https://pan.baidu.com/s/1jhBqJeXShYyChfp1K3RcCw">[Dataset Baidu Drive](password:n2zw)</a>			
+            </div>
+        </td>
+    </table>
+	<br><br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2 id="paper">Paper and Data</h2>
+    </div>
+    <table align="center">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:200px" src="images/cvpr2020_makeup/cvpr20_page.png">
+                </td>
+                <td>
+					<b><span style="display:inline-block;width:600px;font-size:14pt">  FMMu-Net: Face Morphological Multi-branch Network for Makeup-invariant Face Verification.
+                    </span></b>
+                    <br><br>
+                    <span style="font-size:14pt">  Wenxuan Wang<sup>*</sup>, Yanwei Fu<sup>*</sup>, Xuelin Qian, Yu-Gang Jiang, Qi Tian, Xiangyang Xue</span>
+                    <br><br>
+                    <span style="font-size:14px">
+                        <a href="">[Paper]</a>
+                        <a href="">[Bibtex]</a>
+                        <!--<a href="">[GitHub]</a>-->
+                        <a href="https://drive.google.com/open?id=1wpqZCYh7gGKz897C-hQbgR7CHbJdBGxg">[Dataset Google Drive]</a>
+                        <a href="https://pan.baidu.com/s/1jhBqJeXShYyChfp1K3RcCw">[Dataset Baidu Drive](password:n2zw)</a>
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+	
+	
+	<hr> 
+	<div class="center-div" align="center">
+        <h2>Results</h2>
+    </div>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr2020_makeup/cvpr20_results-1.png" width="500px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+
+	<br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/cvpr2020_makeup/cvpr2020_results-2.png" width="700px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>Generated Images</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+    
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div" align="center">
+                            <h2>Acknowledgements</h2>
+                        </div>
+                        <div class="center-div" align="center"> 
+                            The website is modified from this <a href="https://www.cs.cmu.edu/~wyuan1/pcn/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+</body>
+
+</html>
