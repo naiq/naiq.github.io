@@ -1,0 +1,7 @@
+@article{qian2019leader,
+  title={Leader-based Multi-Scale Attention Deep Architecture for Person Re-identification},
+  author={Qian, Xuelin and Fu, Yanwei and Xiang, Tao and Jiang, Yu-Gang and Xue, Xiangyang},
+  journal={IEEE transactions on pattern analysis and machine intelligence},
+  year={2019},
+  publisher={IEEE}
+}
