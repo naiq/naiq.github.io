@@ -79,8 +79,10 @@
             </tr>
         </tbody>
     </table>
-
     <br>
+
+
+
 
     <hr>
     <div class="center-div" align="center">
@@ -104,6 +106,7 @@
        
     </table>
     <br><br>
+	
 	
 	
 	<hr>
@@ -134,19 +137,74 @@
         </td>
     </table>
     <br><br>
-
-    <hr>
-    <div class="center-div" align="center">
-        <h2>MuDeep</h2>
+	
+	
+	
+	<hr> 
+	<div class="center-div" align="center">
+        <h2>Long-Term Cloth-Changing (LTCC) Dataset</h2>
     </div>
 
     <table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> A novel multi-scale representation learning architecture is proposed for learning discriminative person 
-			appearance features at multiple spatial scales and locations. Critically, the multiple scales refer to different resolution levels of 
-			filters, rather than multiscale inputs. And a leader-based attention learning layer can utilize the information computed at all scales 
-			to lead, and dynamically determines the important spatial locations in the feature extraction at each scale.
+            <span style="font-size:18px"> To facilitate the study of Long-Term Cloth-Changing (LTCC) Re-ID, we collect a new LTCC person Re-ID dataset. LTCC contains
+			17,138 person images of 152 identities, and each identity is captured by at least two cameras. To further explore the cloth-changing Re-ID scenario, we
+			assume that different people will not wear identical outfits (however visually similar they may be), and annotate each image with a cloth label as well.
+			Note that the changes of the hairstyle or carrying items, e.g., hat, bag or laptop, do not affect the cloth label. Finally, dependent on whether there 
+			is a clothchange, the dataset can be divided into two subsets: one cloth-change set where 91 persons appearing with 417 different sets of outfits in 
+			14,756 images, and one cloth-consistent subset containing the remaining 61 identities with 2,382 images without outfit changes. On average, there are 5 
+			different clothes for each cloth-changing person, with the numbers of outfit changes ranging from 2 to 14.
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/arxiv2020_LTCC/arxiv2020_LTCC_dataset.png" width="600px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>LTCC Dataset</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	
+	<br>
+	<table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> Examples of one person wearing the same and different clothes in LTCC dataset. There exist various illumination, 
+			occlusion, camera view, carrying and pose changes. This dataset will be released soon.
+			<a href="">[Dataset Google Drive]</a>
+            <a href="">[Dataset Baidu Drive](password:)</a>			
+            </div>
+        </td>
+    </table>
+	<br><br>
+	
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>Cloth-Elimination ShapeDistillation (CESD)</h2>
+    </div>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> With cloth-changing now commonplace in LTCC Re-ID, existing Re-ID models are expected to struggle because they assume 
+			that the clothing appearance is consistent and relies on clothing features to distinguish people from each other. Our key idea is to remove the 
+			cloth-appearance related information completely and only focus on view/pose-change-insensitive body shape information. To this end, we introduce a 
+			Shape Embedding (SE) to help shape feature extraction and a Cloth-Elimination Shape-Distillation (CESD) module to eliminate cloth-related information. 
             </div>
         </td>
     </table>
@@ -164,7 +222,7 @@
             <tr>
                 <td>
                     <div class="center-div" align="center">
-                        <span style="font-size:16px"><i>MuDeep Framework</i>
+                        <span style="font-size:16px"><i>CESD Framework</i>
                         </span></div>
                 </td>
             </tr>
@@ -175,41 +233,19 @@
     <table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> The multi-scale stream layer first analyzes feature maps with multiple scales. Then the leader-based
-			attention learning layer is followed to automatically discover and emphasize important spatial locations. Finally, the global and 
-			local branch layer is utilized to extract discriminate features from global and local parts. Note that the parameters of each 
-			scale are not shared. ‘LAL’ means the Leader-based Attention Learning layer.
+            <span style="font-size:18px"> Illustration of our framework and the details of Cloth-Elimination ShapeDistillation (CESD) module. Here, we introduce 
+			Shape Embedding (SE) module to extract structural features from human keypoints, followed by learning identity-sensitive and cloth-insensitive 
+			representations using the CESD module.
             </div>
         </td>
     </table>
     <br><br>
 	
-	<!--<br>
-    <table align="center">
-        <tbody>
-            <tr>
-                <td>
-                    <div class="center-div" align="center">
-                        <a href="#"><img src="images/tpami2019_MuDeep/tpami19_LAL.png" width="700px"></a><br>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <div class="center-div" align="center">
-                        <span style="font-size:16px"><i>The Leader-based Attention Learning Layer</i>
-                        </span></div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-	<br>-->
-
 
 
     <hr>
     <div class="center-div" align="center">
-        <h2 id="paper">Paper and code</h2>
+        <h2 id="paper">Paper, code and dataset</h2>
     </div>
     <table align="center">
 
@@ -219,15 +255,16 @@
                     <img class="layered-paper-big" style="height:200px" src="images/tpami2019_MuDeep/tpami19_pages.png">
                 </td>
                 <td>
-					<b><span style="display:inline-block;width:600px;font-size:14pt"> Leader-Based Multi-Scale Attention Deep Architecture for Person Re-Identification
-                    </span></b>
+					<b><span style="display:inline-block;width:600px;font-size:14pt"> Long-Term Cloth-Changing Person Re-identification </span></b>
                     <br><br>
-                    <span style="font-size:14pt">  Xuelin Qian<sup>*</sup>, Yanwei Fu<sup>*</sup>, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue</span>
+                    <span style="font-size:14pt"> <me>Xuelin Qian</me>, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue.</span>
                     <br><br>
                     <span style="font-size:18px">
-                        <a href="https://ieeexplore.ieee.org/abstract/document/8762210/">[Paper]</a>
-                        <a href="images\tpami2019_MuDeep\BibTex.txt">[Bibtex]</a>
+                        <a href="">[Paper]</a>
+                        <a href="">[Bibtex]</a>
                         <a href="">[GitHub]</a>
+						<a href="">[Dataset Google Drive]</a>
+						<a href="">[Dataset Baidu Drive](password:)</a>		
                     </span>
                 </td>
             </tr>
