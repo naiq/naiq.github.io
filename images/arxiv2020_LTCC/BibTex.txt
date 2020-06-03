@@ -1,0 +1,6 @@
+@article{qian2020long,
+  title={Long-Term Cloth-Changing Person Re-identification},
+  author={Qian, Xuelin and Wang, Wenxuan and Zhang, Li and Zhu, Fangrui and Fu, Yanwei and Xiang, Tao and Jiang, Yu-Gang and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2005.12633},
+  year={2020}
+}
