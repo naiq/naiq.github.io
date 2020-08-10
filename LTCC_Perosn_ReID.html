@@ -149,11 +149,11 @@
         <td>
             <div>
             <span style="font-size:18px"> To facilitate the study of Long-Term Cloth-Changing (LTCC) Re-ID, we collect a new LTCC person Re-ID dataset. LTCC contains
-			17,138 person images of 152 identities, and each identity is captured by at least two cameras. To further explore the cloth-changing Re-ID scenario, we
+			17,119 person images of 152 identities, and each identity is captured by at least two cameras. To further explore the cloth-changing Re-ID scenario, we
 			assume that different people will not wear identical outfits (however visually similar they may be), and annotate each image with a cloth label as well.
 			Note that the changes of the hairstyle or carrying items, e.g., hat, bag or laptop, do not affect the cloth label. Finally, dependent on whether there 
-			is a cloth-change, the dataset can be divided into two subsets: one cloth-change set where 91 persons appearing with 417 different sets of outfits in 
-			14,756 images, and one cloth-consistent subset containing the remaining 61 identities with 2,382 images without outfit changes. On average, there are 5 
+			is a cloth-change, the dataset can be divided into two subsets: one cloth-change set where 91 persons appearing with 416 different sets of outfits in 
+			14,783 images, and one cloth-consistent subset containing the remaining 61 identities with 2,336 images without outfit changes. On average, there are 5 
 			different clothes for each cloth-changing person, with the numbers of outfit changes ranging from 2 to 14.
             </div>
         </td>
@@ -191,6 +191,44 @@
         </td>
     </table>
 	<br><br>
+	
+	
+		<hr> 
+	<div class="center-div" align="center">
+        <h2>Download</h2>
+    </div>
+	
+	<table align="center" width="1000px">
+        <td>
+            <div>
+            <b><span style="font-size:16pt"> Data Release Agreement</span> </b>
+			<br><br>
+			<span style="font-size:14pt"> Dataset records are made available to researchers only after the receipt and acceptance of a completed 
+			and signed Database Release Agreement.</span>
+			<br><br>
+			<span style="font-size:14pt"> <a href="images/arxiv2020_LTCC/Restrictions for The Use of LTCC Dataset.pdf">[Data Release Protocol]</a> </span>
+			<br><br>
+			<span style="font-size:14pt"> Please submit requests for the dataset unless otherwise indicated: 
+			xuelinq92@gmail.com or xlqian15@fudan.edu.cn</span>	
+			<br><br>
+			<b><span style="font-size:16pt"> Directory Structure</span> </b>
+			<br><br>
+			<span style="font-size:14pt"> The directory structure is similar to Market-1501. Specially, the package contains four folders:<br/>
+			(1) "train". There are 9,576 images with 77 identities in this folder used for training (46 cloth-change IDs + 31 cloth-consistent IDs).<br/>
+			(2) "test". There are 7,050 images with 75 identities in this folder used for testing (45 cloth-change IDs + 30 cloth-consistent IDs).<br/>
+			(3) "query". There are 493 images with 75 identities. We randomly select one query image for each camera and each outfit.<br/>
+			(4) "info". There are 4 TXT files depicting the details of identity split in the train and test folder, which can be used for different experiment settings (e.g., training with cloth-changing images only).</span>
+			<br><br>
+			<span style="font-size:14pt">Naming Rule: <br/>
+			Take "103_1_c9_017008.png" for example, the first part of '103' means the person identity (there are totally 152 identities, annotated from 
+			000 to 151). The second '1' denotes the clothes counter, i.e., the first suit of the person '103'. "c9" means the ninth camera (there are 
+			totally 12 cameras). The last term of '017008' is just the image counter, we don't use it during training and testing.</span>
+            </div>
+        </td>
+    </table>
+	
+    <br><br>
+	
 	
 
     <hr>
@@ -235,66 +273,6 @@
     <br><br>
 	
 
-
-    <hr>
-    <div class="center-div" align="center">
-        <h2 id="paper">Paper and Dataset</h2>
-    </div>
-    <table align="center">
-        <tbody>
-            <tr>
-                <td>
-                    <img class="layered-paper-big" style="height:200px" src="images/arxiv2020_LTCC/arxiv2020_LTCC_page.png">
-                </td>
-                <td>
-			<b><span style="display:inline-block;width:600px;font-size:14pt"> Long-Term Cloth-Changing Person Re-identification </b>
-                    <br><br>
-                    <span style="font-size:14pt"> <me>Xuelin Qian</me>, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue.</span>
-                    <br><br>
-                    <span style="font-size:18px">
-                        <a href="https://arxiv.org/abs/2005.12633">[Paper]</a>
-                        <a href="images\arxiv2020_LTCC\BibTex.txt">[Bibtex]</a>
-						<!--<a href="">[Code and Dataset](coming soon)</a>
-                        <a href="">[GitHub]</a>
-						<a href="">[Dataset Google Drive]</a>
-						<a href="">[Dataset Baidu Drive](password:)</a>-->
-                    </span>
-					
-                </td>
-            </tr>
-        </tbody>
-    </table>
-	
-	<br><br>
-	
-	<!--
-	<hr> 
-	<div class="center-div" align="center">
-        <h2>Download</h2>
-    </div>
-	
-	<table align="center" width="1000px">
-        <td>
-            <div>
-            <b><span style="font-size:16pt"> Data Release Information</span> </b>
-			<br><br>
-			<span style="font-size:14pt"> Dataset records are made available to researchers only after the receipt and acceptance of a completed 
-			and signed Database Release Agreement.</span>
-			<br><br>
-			<span style="font-size:14pt"> <a href="Restrictions for The Use of LTCC Dataset.pdf">[Data Release Protocol]</a> </span>
-			<br><br>
-			<span style="font-size:14pt"> Please submit requests for the dataset unless otherwise indicated: 
-			xuelinq92@gmail.com or xlqian15@fudan.edu.cn</span>	
-			<br><br>
-			<span style="font-size:14pt">Naming Rule of images Take "103_1_c9_017008.png" for example, the first part of '103' means the peron identity (there are totally 103 
-			identities, annotated from 000 to 151). The second '1' denotes the clothes counter, i.e., the first suit of the peron '103'. "c9" means 
-			the ninth camera (there are totally 12 cameras). The last term of '017008' is just the image counter, we don't use it during training and testing.</span>
-            </div>
-        </td>
-    </table>
-	
-    <br><br>-->
-	
 	
 	<hr> 
 	<div class="center-div" align="center">
@@ -329,6 +307,39 @@
     </table>
 	<br><br>
 	
+
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2 id="paper">Paper</h2>
+    </div>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:200px" src="images/arxiv2020_LTCC/arxiv2020_LTCC_page.png">
+                </td>
+                <td>
+			<b><span style="display:inline-block;width:600px;font-size:14pt"> Long-Term Cloth-Changing Person Re-identification </b>
+                    <br><br>
+                    <span style="font-size:14pt"> <me>Xuelin Qian</me>, Wenxuan Wang, Li Zhang, Fangrui Zhu, Yanwei Fu, Tao Xiang, Yu-Gang Jiang, Xiangyang Xue.</span>
+                    <br><br>
+                    <span style="font-size:18px">
+                        <a href="https://arxiv.org/abs/2005.12633">[Paper]</a>
+                        <a href="images\arxiv2020_LTCC\BibTex.txt">[Bibtex]</a>
+						<!--<a href="">[Code and Dataset](coming soon)</a>
+                        <a href="">[GitHub]</a>
+						<a href="">[Dataset Google Drive]</a>
+						<a href="">[Dataset Baidu Drive](password:)</a>-->
+                    </span>
+					
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	
+	<br><br>
+
 
     
     <hr>
