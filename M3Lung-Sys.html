@@ -1,0 +1,329 @@
+<html>
+
+<head>
+    <link rel="StyleSheet" href="style.css" type="text/css" media="all">
+    <title>M<sup>3</sup>Lung-Sys</title>
+    <!-- Place this tag in your head or just before your close body tag. -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+<body>
+    <br>
+    <div class="center-div" align="center">
+        <span style="font-size:26px">M<sup>3</sup>Lung-Sys: A Deep Learning System for Multi-Class Lung Pneumonia Screening from CT Imaging</span>
+    </div>
+
+    <br>
+    <table align="center" width="1000px">
+        <tbody>
+            <tr>
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://naiq.github.io/" target="_blank">Xuelin Qian</a></span>
+                    </div>
+                </td>
+				
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://hzfu.github.io/" target="_blank">Huazhu Fu</a></span>
+                    </div>
+                </td>
+				
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://dl.acm.org/profile/81392607589/publications?Role=author" target="_blank">Weiya Shi</a></span>
+                    </div>
+                </td>
+				
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://scholar.google.com.sg/citations?user=w3OoFL0AAAAJ&hl=en" target="_blank">Tao Chen</a></span>
+                    </div>
+                </td>
+				
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a></span>
+                    </div>
+                </td>
+
+                <td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://covid19.elsevierpure.com/en/persons/fei-shan" target="_blank">Fei Shan</a></span>
+                    </div>
+                </td>
+
+				<td align="center" width="150px">
+                    <div class="center-div">
+                        <span style="font-size:18px"><a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a></span>
+                    </div>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <table align="center" width="1000px">
+        <tbody>
+            <tr>
+                <td align="center" width="800px">
+                    <div class="center-div">
+                        <span style="font-size:18px">Fudan University, China &nbsp; &nbsp;  Shanghai Public Health Clinical Center, Fudan University, China </span><br>
+						<span style="font-size:18px">Inception Institute of Artificial Intelligence (IIAI), Abu Dhabi, UAE</span>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>Abstract</h2>
+    </div>
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> To counter the outbreak of COVID-19, the accurate diagnosis of suspected cases plays a crucial role
+            in timely quarantine, medical treatment, and preventing the spread of the pandemic. Considering the limited training cases and resources 
+			(e.g, time and budget), we propose a Multi-task Multi-slice Deep Learning System (M<sup>3</sup>Lung-Sys) for multi-class lung pneumonia screening 
+			from CT imaging, which only consists of two 2D CNN networks, i.e., sliceand patient-level classification networks. The former aims
+			to seek the feature representations from abundant CT slices instead of limited CT volumes, and for the overall pneumonia screening, the 
+			latter one could recover the temporal information by feature refinement and aggregation between different slices. In addition to 
+			distinguish COVID-19 from Healthy, H1N1, and CAP cases, our M3Lung-Sys also be able to locate the areas of relevant lesions, without any
+			pixel-level annotation. To further demonstrate the effectiveness of our model, we conduct extensive experiments on a chest CT imaging 
+			dataset with a total of 734 patients (251 healthy people, 245 COVID-19 patients, 105 H1N1 patients, and 133 CAP patients). The quantitative
+			results with plenty of metrics indicate the superiority of our proposed model on both slice- and patient-level classification tasks. More
+			importantly, the generated lesion location maps make our system interpretable and more valuable to clinicians.
+            </div>
+        </td>
+       
+    </table>
+    <br><br>
+	
+	
+	<hr>
+    <div class="center-div" align="center">
+        <h2>Dataset</h2>
+    </div>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/jbhi2020_M3Lung-Sys/JBHI2020_flow_chart.png" width="400px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+	
+	<table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> The Ethics Committee of Shanghai Public Health Clinical Center, Fudan University 
+			approved the protocol of this study and waived the requirement for patient-informed consent (YJ-2020-S035-01). 
+			A search through the medical records in our hospital information system was conducted, with the final dataset 
+			consisting of 245 patients with COVID-19 pneumonia, 105 patients with H1N1 pneumonia, 133 patients with CAP and 
+			251 healthy subjects with non-pneumonia. Of the 734 enrolled people with 415 (56.5%) men, the mean age was 
+			41.8±15.9 years (range, 2 ~ 96 years). 
+            </div>
+        </td>
+    </table>
+    <br><br>
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2>M<sup>3</sup>Lung-Sys</h2>
+    </div>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px">  The proposed Multi-task Multi-slice Deep Learning System (M<sup>3</sup>Lung-Sys) consists 
+			of two components, the Image Preprocessing and Classification Network. 
+            </div>
+        </td>
+    </table>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/jbhi2020_M3Lung-Sys/JBHI2020_M3Lung-Sys.png" width="700px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>M<sup>3</sup>Lung-Sys Framework</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>
+
+    <table align="center" width="1000px">
+        <td>
+            <div>
+            <span style="font-size:18px"> Specifically, the Image Preprocessing receives 
+			raw CT exams, and prepare them for model training or inference. For the Classification Network, we 
+			divide it into two subnets (stages), i.e., slice-level and patient-level classification networks, with the purpose of 
+			jointly COVID-19 screening and location.Slice-level classification network is trained with multiple CT slice images and predicts 
+			the corresponding slice-level categories, i.e., Healthy, COVID-19, H1N1 or CAP. Besides, patient-level classification 
+			network only has four layers, and takes a volume of CT slice features, instead of images as input, which are extracted 
+			by the former network, to output the patient-level labels. Both classification networks are trained separately due to 
+			different tasks, but can be used concurrently in an end-to-end manner for the efficiency. More importantly, for cases 
+			classified as positive (i.e., COVID-19, H1N1 or CAP), our system can locate suspected area of abnormality without any 
+			pixel-level annotations.
+            </div>
+        </td>
+    </table>
+    <br><br>
+	
+	<!--<br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/tpami2019_MuDeep/tpami19_LAL.png" width="700px"></a><br>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <span style="font-size:16px"><i>The Leader-based Attention Learning Layer</i>
+                        </span></div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br>-->
+
+
+	
+	
+	<hr> 
+	<div class="center-div" align="center">
+        <h2>Results</h2>
+    </div>
+
+    <br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/jbhi2020_M3Lung-Sys/JBHI2020_results_1.png" width="800px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+
+	<br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/jbhi2020_M3Lung-Sys/JBHI2020_results_2.png" width="500px"></a><br>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+	<br><br>
+	
+	<br>
+    <table align="center">
+        <tbody>
+            <tr>
+                <td>
+                    <div class="center-div" align="center">
+                        <a href="#"><img src="images/jbhi2020_M3Lung-Sys/JBHI2020_results_3.png" width="500px"></a><br>
+                    </div>
+                </td>
+            </tr>
+			<table align="center" width="700px">
+				<td>
+				<div>
+				<span style="font-size:18px"> The visualizations of our system outputs for one COVID-19 patient. We show a CT 
+						sequence by sampling every five slices. The lesion location maps, with the predicted slicelevel diagnosis on the 
+						upper right, are attached at the bottom of the corresponding raw CT slices. At the end of the sequence, the 
+						probability of each category, predicted by the patient-level classification network is provided, i.e., 0: Healthy;
+						1: COVID-19; 2: H1N1; 3: CAP.
+				</div>
+				</td>
+			</table>
+        </tbody>
+    </table>
+	<br><br>
+	
+	
+	
+
+    <hr>
+    <div class="center-div" align="center">
+        <h2 id="paper">Paper</h2>
+    </div>
+    <table align="center">
+
+        <tbody>
+            <tr>
+                <td>
+                    <img class="layered-paper-big" style="height:200px" src="images/jbhi2020_M3Lung-Sys/JBHI2020_pages.png">
+                </td>
+                <td>
+					<b><span style="display:inline-block;width:800px;font-size:14pt"> M<sup>3</sup>Lung-Sys: A Deep Learning System for Multi-Class Lung Pneumonia Screening from CT Imaging
+                    </span></b>
+                    <br><br>
+                    <span style="font-size:14pt">  Xuelin Qian, Huazhu Fu, Weiya Shi, Tao Chen, Yanwei Fu<sup>*</sup>, Fei Shan, and Xiangyang Xue</span>
+                    <br><br>
+                    <span style="font-size:18px">
+                        <a href="">[Paper]</a>
+                        <a href="">[Bibtex]</a>
+                        <!--<a href="https://github.com/naiq/MuDeep_v2">[GitHub]</a>-->
+                    </span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br><br>
+	
+	
+    
+    <hr>
+    <table align="center" width="980px">
+        <tbody>
+            <tr>
+                <td>
+                    <left>
+                        <div class="center-div" align="center">
+                            <h2>Acknowledgements</h2>
+                        </div>
+                        <div class="center-div" align="center"> 
+                            The website is modified from this <a href="https://www.cs.cmu.edu/~wyuan1/pcn/">template</a>.
+                        </div>
+                    </left>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+
+
+</body>
+
+</html>
