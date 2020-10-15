@@ -1,0 +1,6 @@
+@article{qian2020m3lung,
+  title={M3Lung-Sys: A Deep Learning System for Multi-Class Lung Pneumonia Screening from CT Imaging},
+  author={Qian, Xuelin and Fu, Huazhu and Shi, Weiya and Chen, Tao and Fu, Yanwei and Shan, Fei and Xue, Xiangyang},
+  journal={arXiv preprint arXiv:2010.03201},
+  year={2020}
+}
