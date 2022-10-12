@@ -20,43 +20,6 @@
 </head>
 
 <body>
-<div class="content">
-	<div id="container">
-	<table align="center">
-	<tbody><tr>
-	<td width="30%"><img id="myPicture" src="images/portfolio.png" style="float:left; padding-right:20px" height="200px"></td>
-	<script>choosePic();</script>
-	<td width="5%"><p></p></td>
-	<td width="65%">
-
-		<h1>Xuelin Qian</h1>
-	   <b>Postdoctoral Research Fellow</b> <br>
-	the School of Data Science<br>
-	Fudan University<br>
-	    Office: Zibin Yard, No.220, Handan Road, Shanghai<br>
-	    Email: xlqian at fudan dot edu dot cn or xuelinq92 at gmail dot com<br>
-	  <!--
-	<a href="pdf/SJWang_CV.pdf">CV</a> &bull; <a href="https://scholar.google.com/citations?user=WFELH6IAAAAJ&hl=en">Google Scholar</a> &bull; <a href="https://github.com/emma-sjwang">Github</a> &bull; <a href="https://www.linkedin.com/in/sjwang8020">Linkedin</a> <br>
-	-->
-
-
-<div class="container" id="bio_social_container">
-
-    <div>
-                  <a class="social-icon col l2 m2 s2 center-align" href="pdf/SJWang_CV.pdf" target="_blank"><i class="fa fa-user-circle-o fa-2x"></i></a>
-                  <a class="social-icon col l2 m2 s2 center-align" href="https://scholar.google.com/citations?user=WFELH6IAAAAJ&hl=en" target="_blank"><i class="fa fa-google fa-2x"></i></a>
-                  <a class="social-icon col l2 m2 s2 center-align" href="https://github.com/emma-sjwang" target="_blank"><i class="fa fa-github fa-2x"></i></a>
-                  <a class="social-icon col l2 m2 s2 center-align" href="https://www.linkedin.com/in/sjwang8020" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a> <a><i></i></a> <a></a>
-                </div> </div>
-
-    </td>
-
-
-	</tr>
-	</tbody></table>
-	<br>
-
-
     <div class="container-fluid">
         <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
             <div class="container-fluid">
@@ -80,30 +43,55 @@
                 </div>-->
             </div>
         </nav>
-        <div class="sec-wrapper pub-wrapper" id="pub">
+        <div class="sec-wrapper home-wrapper" id="home">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-sm-1 placeholder"></div>
+                    <div class="col-sm-offset-4 col-md-offset-8">
+                        <div class="picture">
+                            <img src="images/portfolio.png" class="img-responsive" alt="[Xuelin]"
+                                onmouseover="this.src='images/portfolio.png'"
+                                onmouseout="this.src='images/portfolio.png'" />
+                        </div>
+                    </div>
+                    <div class="col-sm-1 placeholder"></div>
+                    <div class="col-sm-6">
+                        <div class="description">
+                            <!--<h1 class="name">Xuelin Qian</h1>-->
+							<div>Hi! I am currently a postdoctoral research fellow at the School of Data Science, <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a> with 
+Prof. <a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a>.</div>
+							<div>I received Ph.D. from the School of Computer Science, <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a>, under the supervision of 
+Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a>.</div>
+							<div>I received my Bachelor's degree from <a href="https://en.xidian.edu.cn/" target="_blank">Xidian University</a> 
+							in 2015, and majored in Mathematics and Applied Mathematics during my undergraduate study. </div>
+                            <div>More details can be found in my <a href="documents/qxl_cv.pdf" target="_blank">CV</a>. </div>
+                            <div>Email: xlqian at fudan dot edu dot cn or xuelinq92 at gmail dot com</div>
+                        </div>
+                    </div>
+                    <div class="col-sm-1 placeholder"></div>
+                </div>
+            </div>
+        </div>
+		<div class="sec-wrapper pub-wrapper" id="pub">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col col-wrapper">
                         <div class="section-title">
-                            <b>Biography</b>
+                            <b>Research Interest</b>
                             <hr style="margin-top: 0px;" />
                         </div>
                     </div>
                 </div>
                 <div class="description">
-			<Li>Hi! I am currently a postdoctoral research fellow at the School of Data Science, <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a> with 
-			Prof. <a href="http://yanweifu.github.io/index.html" target="_blank">Yanwei Fu</a>.</Li> 
-			<Li>I have completed my PHD study at the School of Computer Science, <a href="https://www.fudan.edu.cn/en/" target="_blank">Fudan University</a>, under the supervision of 
-			Prof. <a href="https://scholar.google.com/citations?user=DTbhX6oAAAAJ&hl=en" target="_blank">Xiangyang Xue</a>. Previously, I received the Bachelor's degree from 
-			<a href="https://en.xidian.edu.cn/" target="_blank">Xidian University</a>, and majored in Mathematics and Applied Mathematics during my undergraduate study.</Li> 
-                    	<Li>My research interests span computer vision, machine learning and deep learning. 
-			At present, I devote to the research of human understanding, model rebust, image generation, and computer-aided diagnosis. </Li>
-			<Li>Open-source projects can be found at <a href="https://github.com/naiq" target="_blank">GitHub</a>, and publications can be found at
-			<a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>. More details are in <a href="documents/qxl_cv.pdf" target="_blank">CV</a>. </Li>
+                    <div>My research interests span computer vision, machine learning and deep learning.
+					At present, I devote to the research of person re-identification, model rebust, few-shot learning, face recognition,
+							image generation, computer-aided diagnosis and object counting. </div>
+					<div>Open-source projects can be found at my <a href="https://github.com/naiq" target="_blank">GitHub</a>, 
+							and publications can be found at <a href="https://scholar.google.com/citations?user=71WXkL4AAAAJ&hl=en" target="_blank">Google Scholar</a>. </div>
                 </div>
             </div>
         </div>
-	<div class="sec-wrapper pub-wrapper" id="pub">
+		<div class="sec-wrapper pub-wrapper" id="pub">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col col-wrapper">
@@ -115,25 +103,26 @@
                 </div>
                 <div class="description">
 				    <div>
-					<div>[10/2022] One paper is accepted by <me>WACV 2022</me>, <a href="https://arxiv.org/abs/2203.17240" target="_blank">ImpDet</a>.</div>
-                                        <div>[09/2022] Two papers to apper in <me>ACCV 2022</me> (1 Poster and 1 <font color="#DAA520">Oral</font>). <a href="https://arxiv.org/abs/2203.11632" target="_blank">QS-Craft</a> and <a href="" target="_blank">CAMC</a>. </a></div>
-                                        <div>[03/2022] One paper is accepted by <me>CVPR 2022</me>. <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_DST_Dynamic_Substitute_Training_for_Data-Free_Black-Box_Attack_CVPR_2022_paper.html" target="_blank">DST.</a></div>
-					<div>[08/2021] We have released the LTCC ReID dataset of our work "Long-term Cloth-changing Person Re-identification". <a href="https://arxiv.org/abs/2005.12633">LTCC.</a>
-					<a href="https://naiq.github.io/LTCC_Perosn_ReID.html" target="_blank">[Dataset]</a></div>
-					<div>[01/2021] We have released the code for TPAMI 2019 paper. <a href="http://epubs.surrey.ac.uk/852875/1/final_version.pdf" target="_blank">MuDeep_V2.</a><a href="https://github.com/naiq/MuDeep_v2" target="_blank">[Code]</a></div>
-					<div>[10/2020] One paper is accepted by JBHI 2020. <a href="https://arxiv.org/abs/2010.03201" target="_blank">M<sup>3</sup>Lung-Sys.</a> <a href="https://naiq.github.io/M3Lung-Sys.html" target="_blank">[Project Page]</a></div>
-					<div>[05/2020] One paper is accepted in ACCV 2020 as <font color="#DAA520">Oral Presentation</font>. <a href="https://arxiv.org/abs/2005.12633" target="_blank">LTCC.</a>
-					    	<a href="https://naiq.github.io/LTCC_Perosn_ReID.html" target="_blank">[Dataset]</a></div>   
-					<div>[09/2020] We have released a new makeup face verification dataset. <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.html" target="_blank">FM2u-Net.</a>
+					<div>One paper is accepted by <me>WACV 2022</me>, <a href="https://arxiv.org/abs/2203.17240" target="_blank">ImpDet</a>.</div>
+                                        <div>Two papers to apper in <me>ACCV 2022</me> (1 Poster and 1 Oral). <a href="https://arxiv.org/abs/2203.11632" target="_blank">QS-Craft</a> and <a href="" target="_blank">CAMC</a>. </a></div>
+                                        <div>One paper is accepted by <me>CVPR 2022</me>. <a href="https://openaccess.thecvf.com/content/CVPR2022/html/Wang_DST_Dynamic_Substitute_Training_for_Data-Free_Black-Box_Attack_CVPR_2022_paper.html" target="_blank">DST.</a></div>
+					<div>One paper is accepted by JBHI 2020. <a href="https://arxiv.org/abs/2010.03201" target="_blank">M<sup>3</sup>Lung-Sys.</a> <a href="https://naiq.github.io/M3Lung-Sys.html" target="_blank">[Project Page]</a></div>
+					<div>One paper is accepted in ACCV 2020 as <font color="#DAA520">Oral Presentation</font>. <a href="https://arxiv.org/abs/2005.12633" target="_blank">LTCC.</a>
+					    <a href="https://naiq.github.io/LTCC_Perosn_ReID.html" target="_blank">[Dataset]</a></div>   
+					We have released the code for TPAMI 2019 paper. <a href="http://epubs.surrey.ac.uk/852875/1/final_version.pdf" target="_blank">MuDeep_V2.</a>
+					<a href="https://github.com/naiq/MuDeep_v2" target="_blank">[Code]</a></div>
+					<div>We have released the LTCC ReID dataset of our work "Long-term Cloth-changing Person Re-identification". <a href="https://arxiv.org/abs/2005.12633">LTCC.</a>
+					<a href="https://naiq.github.io/LTCC_Perosn_ReID.html" target="_blank">[Dataset]</a>
+					<div>We have released a new makeup face verification dataset. <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.html" target="_blank">FM2u-Net.</a>
 					<a href="https://wxwangiris.github.io/CVPR2020_FM2u-Net" target="_blank">[Dataset]</a></div>
-                    			<div>[06/2020] We have released a new cloth-changed ReID dataset. <a href="https://arxiv.org/abs/2003.04070" target="_blank">VC-Clothes Dataset.</a>
+                    <div>We have released a new cloth-changed ReID dataset. <a href="https://arxiv.org/abs/2003.04070" target="_blank">VC-Clothes Dataset.</a>
 					<a href="https://wanfb.github.io/dataset.html" target="_blank">[Dataset]</a></div>
-                    			<div>[03/2020] One paper is accepted by CVPR 2020. <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.html" target="_blank">FM2u-Net.</a></div>
-					<div>[02/2020] One paper is accepted by CVPR Workshop 2020. <a href="https://arxiv.org/abs/2003.04070" target="_blank">Cloth-changed ReID.</a></div>
-					<div>[07/2019] One paper is accepted by TPAMI 2019. <a href="http://epubs.surrey.ac.uk/852875/1/final_version.pdf" target="_blank">MuDeep_V2.</a></div>
-					<div>[08/2018] One paper is accepted by ECCV 2018. <a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.html" 
+                    <div>One paper is accepted by CVPR 2020. <a href="http://openaccess.thecvf.com/content_CVPR_2020/html/Wang_FM2u-Net_Face_Morphological_Multi-Branch_Network_for_Makeup-Invariant_Face_Verification_CVPR_2020_paper.html" target="_blank">FM2u-Net.</a></div>
+					<div>One paper is accepted by CVPR Workshop 2020. <a href="https://arxiv.org/abs/2003.04070" target="_blank">Cloth-changed ReID.</a></div>
+					<div>One paper is accepted by TPAMI 2019. <a href="http://epubs.surrey.ac.uk/852875/1/final_version.pdf" target="_blank">MuDeep_V2.</a></div>
+					<div>One paper is accepted by ECCV 2018. <a href="http://openaccess.thecvf.com/content_ECCV_2018/html/Xuelin_Qian_Pose-Normalized_Image_Generation_ECCV_2018_paper.html" 
 target="_blank">PN-GAN.</a> <a href="https://github.com/naiq/PN_GAN" target="_blank">[Code]</a></div>
-					<div>[07/2017] One paper is accepted by ICCV 2017. <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Qian_Multi-Scale_Deep_Learning_ICCV_2017_paper.html" 
+					<div>One paper is accepted by ICCV 2017. <a href="http://openaccess.thecvf.com/content_iccv_2017/html/Qian_Multi-Scale_Deep_Learning_ICCV_2017_paper.html" 
 target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-person-reid/blob/master/torchreid/models/mudeep.py" target="_blank">[Code]</a></div>
 				</div>
             </div>
@@ -145,12 +134,10 @@ target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-pers
                     <div class="col col-wrapper">
                         <div class="section-title">
                             <b>Publications</b>
-				
                             <hr style="margin-top: 0px;" />
                         </div>
                     </div>
                 </div>
-		(*: equal contribution; &#10013: corresponding author)
 		<div class="row align-items-center section-item">
                     <div class="col-xs-12 col-md-3 col-lg-4 col-wrapper">
                         <div class="figure" style="border: none;">
@@ -184,7 +171,7 @@ target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-pers
                             <b>Co-Attention Aligned Mutual Cross-Attention for Cloth-Changing Person Re-Identification</b>
                         </div>
                         <div class="authors">
-							Qizao Wang, <me>Xuelin Qian<sup>&#10013</sup></b></me>, Yanwei Fu, Xiangyang Xue.
+							Qizao Wang, <me>Xuelin Qian*</me>, Yanwei Fu, Xiangyang Xue.
                         </div>
                         <div>
                             Asian Conference on Computer Vision (ACCV), 2022 <font color="#DAA520">(Oral)</font>
@@ -206,7 +193,7 @@ target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-pers
                             <b>QS-Craft: Learning to Quantize, Scrabble and Craft for Conditional Human Motion Animation</b>
                         </div>
                         <div class="authors">
-							Yuxin Hong, <me>Xuelin Qian<sup>&#10013</sup></b></me>, Simian Luo, Yanwei Fu, Guodong Guo, Xiangyang Xue.
+							Yuxin Hong, <me>Xuelin Qian*</me>, Simian Luo, Yanwei Fu, Guodong Guo, Xiangyang Xue.
                         </div>
                         <div>
                             Asian Conference on Computer Vision (ACCV), 2022
@@ -228,7 +215,7 @@ target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-pers
                             <b>DST: Dynamic Substitute Training for Data-free Black-box Attack</b>
                         </div>
                         <div class="authors">
-							Wenxuan Wang, <me>Xuelin Qian<sup>&#10013</sup></b></me>, Yanwei Fu, Xiangyang Xue.
+							Wenxuan Wang, <me>Xuelin Qian*</me>, Yanwei Fu, Xiangyang Xue.
                         </div>
                         <div>
                             IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2022
@@ -445,7 +432,7 @@ target="_blank">MuDeep_V1.</a> <a href="https://github.com/KaiyangZhou/deep-pers
 	  <script type="text/javascript" id="clstr_globe" src="//cdn.clustrmaps.com/globe.js?d=F3o-c0BKt18Aq9R7FOWA-dlVhGuowm8xNHsCIMbZAOo"></script>
 	  </div>        
 	  <br>
-	    &copy; Xuelin Qian | Last updated: 10/2022
+	    &copy; Xuelin Qian | Last updated: 11/10/2022
 	</center></p>
     </div>
     <script src="js/jquery-3.3.1.slim.min.js"></script>
