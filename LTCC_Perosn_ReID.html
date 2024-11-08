@@ -151,10 +151,10 @@
             <span style="font-size:18px"> To facilitate the study of Long-Term Cloth-Changing (LTCC) Re-ID, we collect a new LTCC person Re-ID dataset. LTCC contains
 			17,119 person images of 152 identities, and each identity is captured by at least two cameras. To further explore the cloth-changing Re-ID scenario, we
 			assume that different people will not wear identical outfits (however visually similar they may be), and annotate each image with a cloth label as well.
-			Note that the changes of the hairstyle or carrying items, e.g., hat, bag or laptop, do not affect the cloth label. Finally, dependent on whether there 
+			Note that the changes in hairstyle or carrying items, e.g., hat, bag, or laptop, do not affect the cloth label. Finally, dependent on whether there 
 			is a cloth-change, the dataset can be divided into two subsets: one cloth-change set where 91 persons appearing with 416 different sets of outfits in 
 			14,783 images, and one cloth-consistent subset containing the remaining 61 identities with 2,336 images without outfit changes. On average, there are 5 
-			different clothes for each cloth-changing person, with the numbers of outfit changes ranging from 2 to 14.
+			different clothes for each cloth-changing person, with the number of outfit changes ranging from 2 to 14.
             </div>
         </td>
     </table>
@@ -183,7 +183,7 @@
 	<table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> Examples of some people wearing the same and different clothes in LTCC dataset. There exists various illuminations, 
+            <span style="font-size:18px"> Examples of some people wearing the same and different clothes in LTCC dataset. There exist various illuminations, 
 			occlusion, camera view, carrying, and pose changes. This dataset has already been released.
 			<!--<a href="">[Dataset Google Drive]</a>
             <a href="">[Dataset Baidu Drive](password:)</a>-->
@@ -227,25 +227,9 @@
 			<b><span style="font-size:16pt"> Evaluation Protocol</span> </b>
 			<br><br>
 			<span style="font-size:14pt"> During inference, we load all gallery images but set remove or junk index to filter the images that violate the evaluation protocol. Below, we use pseudocode to explain in more detail the two settings used in the paper.<br/>
-			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.
-			<code>
-				junk_index1 = np.argwhere(gl==-1)
-				junk_index2 = np.intersect1d(query_index, camera_index)
-				junk_index = np.append(junk_index2, junk_index1) #.flatten())
-				OR
-				remove = (g_pids[order] == q_pid) & (g_camids[order] == q_camid)
-			 </code><br/>
-			(2) "Cloth-changing Setting": Gallery images with the same identity or the same clothes as the query person are filtered.
-			<pre><code>
-				cloth_index = np.argwhere(gcl==qcl) # same id same cloth
-			        junk_index1 = np.argwhere(gl==-1) # id == -1
-			        junk_index2 = np.intersect1d(query_index, camera_index) # same id same cam
-			        junk_index2 = np.union1d(junk_index2, cloth_index)
-			        junk_index = np.append(junk_index2, junk_index1) #.flatten())
-				OR
-				remove = (g_pids[order] == q_pid) & (g_camids[order] == q_camid) | (g_pids[order] == q_pid) & (g_clothids[order] == q_clothid)
-			</code></pre>
-			</span>
+			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.<br/>
+			(2) "Cloth-changing Setting": Gallery images with the same identity or the same clothes as the query person are filtered.</span>
+				
 			
             </div>
         </td>
