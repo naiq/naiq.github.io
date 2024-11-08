@@ -183,8 +183,8 @@
 	<table align="center" width="1000px">
         <td>
             <div>
-            <span style="font-size:18px"> Examples of some people wearing the same and different clothes in LTCC dataset. There exists various illumination, 
-			occlusion, camera view, carrying and pose changes. This dataset has already been released.
+            <span style="font-size:18px"> Examples of some people wearing the same and different clothes in LTCC dataset. There exists various illuminations, 
+			occlusion, camera view, carrying, and pose changes. This dataset has already been released.
 			<!--<a href="">[Dataset Google Drive]</a>
             <a href="">[Dataset Baidu Drive](password:)</a>-->
             </div>
@@ -217,12 +217,34 @@
 			(1) "train". There are 9,576 images with 77 identities in this folder used for training (46 cloth-change IDs + 31 cloth-consistent IDs).<br/>
 			(2) "test". There are 7,050 images with 75 identities in this folder used for testing (45 cloth-change IDs + 30 cloth-consistent IDs).<br/>
 			(3) "query". There are 493 images with 75 identities. We randomly select one query image for each camera and each outfit.<br/>
-			(4) "info". There are 4 TXT files depicting the details of identity split in the train and test folder, which can be used for different experiment settings (e.g., training with cloth-changing images only).</span>
+			(4) "info". There are 4 TXT files depicting the details of the identity split in the train and test folder, which can be used for different experiment settings (e.g., training with cloth-changing images only).</span>
 			<br><br>
 			<span style="font-size:14pt">Naming Rule: <br/>
 			Take "103_1_c9_017008.png" for example, the first part of '103' means the person identity (there are totally 152 identities, annotated from 
 			000 to 151). The second '1' denotes the clothes counter, i.e., the first suit of the person '103'. "c9" means the ninth camera (there are 
 			totally 12 cameras). The last term of '017008' is just the image counter, we don't use it during training and testing.</span>
+			<br><br>
+			<b><span style="font-size:16pt"> Evaluation Protocol</span> </b>
+			<br><br>
+			<span style="font-size:14pt"> During inference, we load all gallery images but set remove or junk index to filter the images that violate the evaluation protocol. Below, we use pseudocode to explain in more detail the two settings used in the paper.<br/>
+			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.
+			<pre><code>
+			junk_index1 = np.argwhere(gl==-1)
+		        junk_index2 = np.intersect1d(query_index, camera_index)
+		        junk_index = np.append(junk_index2, junk_index1) #.flatten())
+			OR
+			remove = (g_pids[order] == q_pid) & (g_camids[order] == q_camid)
+			 </code></pre><br/>
+			(2) "Cloth-changing Setting": Gallery images with the same identity OR the same clothes as the query person filtered.
+			<pre><code>
+			cloth_index = np.argwhere(gcl==qcl) # same id same cloth
+		        junk_index1 = np.argwhere(gl==-1) # id == -1
+		        junk_index2 = np.intersect1d(query_index, camera_index) # same id same cam
+		        junk_index2 = np.union1d(junk_index2, cloth_index)
+		        junk_index = np.append(junk_index2, junk_index1) #.flatten())
+			OR
+			remove = (g_pids[order] == q_pid) & (g_camids[order] == q_camid) | (g_pids[order] == q_pid) & (g_clothids[order] == q_clothid)
+			</code></pre><br/>
             </div>
         </td>
     </table>
