@@ -227,15 +227,15 @@
 			<b><span style="font-size:16pt"> Evaluation Protocol</span> </b>
 			<br><br>
 			<span style="font-size:14pt"> During inference, we load all gallery images but set remove or junk index to filter the images that violate the evaluation protocol. Below, we use pseudocode to explain in more detail the two settings used in the paper.<br/>
-			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.<br/>
-			<pre><code>
+			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.
+			<code>
 				junk_index1 = np.argwhere(gl==-1)
 				junk_index2 = np.intersect1d(query_index, camera_index)
 				junk_index = np.append(junk_index2, junk_index1) #.flatten())
 				OR
 				remove = (g_pids[order] == q_pid) & (g_camids[order] == q_camid)
-			 </code></pre>
-			(2) "Cloth-changing Setting": Gallery images with the same identity OR the same clothes as the query person filtered.
+			 </code><br/>
+			(2) "Cloth-changing Setting": Gallery images with the same identity or the same clothes as the query person are filtered.
 			<pre><code>
 				cloth_index = np.argwhere(gcl==qcl) # same id same cloth
 			        junk_index1 = np.argwhere(gl==-1) # id == -1
