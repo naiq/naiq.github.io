@@ -227,7 +227,7 @@
 			<b><span style="font-size:16pt"> Evaluation Protocol</span> </b>
 			<br><br>
 			<span style="font-size:14pt"> During inference, we load all gallery images but set remove or junk index to filter the images that violate the evaluation protocol. Below, we use pseudocode to explain two settings used in the paper. 
-				Also, please refer to source codes of <a href="https://drive.google.com/file/d/1N6yLX1zn_flibDxrbPWpc1jC9yuBBNoi/view?usp=sharing" target="_blank">LTCC</a> or <a href="https://github.com/QizaoWang/FIRe-CCReID" target="_blank">FIRe2.</a><br/>
+				Also, please refer to the source code of <a href="https://drive.google.com/file/d/1N6yLX1zn_flibDxrbPWpc1jC9yuBBNoi/view?usp=sharing" target="_blank">LTCC</a> or <a href="https://github.com/QizaoWang/FIRe-CCReID" target="_blank">FIRe2.</a><br/>
 			(1) "Standard Setting": Gallery images with the same identity as the query person are filtered.<br/>
 			<table align="center">
 				<tbody>
@@ -240,7 +240,7 @@
 				    </tr>
 				</tbody>
 			</table>
-			(2) "Cloth-changing Setting": Gallery images with the same identity or the same clothes as the query person are filtered.</span>
+			(2) "Cloth-changing Setting": Gallery images with the same identity, same clothes as the query person are filtered.<br/>
 			<table align="center">
 				<tbody>
 				    <tr>
@@ -252,6 +252,8 @@
 				    </tr>
 				</tbody>
 			</table>
+			Attention, please do not directly use TXT files in the “info." folder to filter gallery images unless you can be sure to get the same filtering results as above. 
+			Those TXT files are provided to reproduce the experiments (with $\dag$) in Table 1.</span>
 			
             </div>
         </td>
